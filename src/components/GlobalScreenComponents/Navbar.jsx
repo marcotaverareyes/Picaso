@@ -2,8 +2,8 @@ import React, { useState,useEffect } from "react";
 import styled from "styled-components";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
-import Button from "./Button";
-import logo from '../assets/logo.png'
+import Button from "../Button";
+import logo from '../../assets/logo.png'
 import * as Scroll from 'react-scroll';
 import {Link} from 'react-scroll'
 import { useNavigate,useLocation} from "react-router-dom";

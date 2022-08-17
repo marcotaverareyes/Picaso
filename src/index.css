@@ -138,15 +138,22 @@ a {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.65rem;
+}
+
+#titleMain{
+  font-size: 3.6rem;
 }
 
 h2 {
   font-size: 2rem;
 }
+h3 {
+  font-size: 1.2rem;
+}
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   word-spacing: 0.2rem;
   line-height: 1.8rem;
 }
@@ -188,16 +195,31 @@ p {
   .gap-2 {
     gap: 0.5rem;
   }
+  .image{
+    /* background-color: #ff3333; */
+    margin-right: 45px;
+  }
   .half-width {
     width: 80vw;
     height: 100%;
   }
   h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
+  }
+  #titleMain{
+    font-size: 1.7rem;
+  }
+  h3 {
+    font-size: .9rem;
   }
   p {
-    font-size: 1.1rem;
+    font-size: .85rem;
     word-spacing: 0.2rem;
     line-height: 1.5rem;
+  }
+  .description{
+    /* background-color: #091030; */
+    align-self: center;
+    justify-items: center;
   }
 }

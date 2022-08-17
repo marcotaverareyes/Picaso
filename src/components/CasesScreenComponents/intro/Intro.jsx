@@ -1,6 +1,6 @@
 import "./intro.css";
 // import Me from "../../img/me.png";
-import caseLogo from '../../assets/casesLogo.png'
+import caseLogo from '../../../assets/casesLogo.png'
 
 const Intro = () => {
   return (
@@ -23,7 +23,7 @@ const Intro = () => {
           </p>
         </div>
       </div>
-      <div className="image">
+      <div id='caseImage' className="image">
         <img src={caseLogo} alt="home" className="half-width" />
       </div>
     </div>

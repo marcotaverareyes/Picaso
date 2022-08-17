@@ -7,8 +7,9 @@ const StyledPricingCards = styled.div`
   justify-content: center;
   align-items: flex-start;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  @media (max-width: 942px) {
+  @media (max-width: 480px) {
     flex-direction: column;
+    align-items: center;
   }
 `
 
@@ -21,6 +22,9 @@ const StyledPricingCardContainer = styled.div`
     box-shadow: 0 0px 10px 2px #2499f9;
   }
   overflow: hidden;
+  @media (max-width: 480px) {
+    margin: 48px 0px 0 0;
+  }
 `
 
 const StyledHeaderContainer = styled.div`

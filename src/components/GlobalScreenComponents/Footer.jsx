@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { BsFacebook, BsTwitter, BsYoutube } from "react-icons/bs";
-import spacemen from "../assets/spacemen.png";
-import cards from "../assets/cards.png";
+import spacemen from "../../assets/spacemen.png";
+import cards from "../../assets/cards.png";
 export default function Footer() {
   const companyLinks = [
     "About",

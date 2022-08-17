@@ -1,0 +1,29 @@
+.outsideText{
+    justify-content:'center';
+    align-items:'center';
+    margin-left:200px;
+    margin-right:200px
+}
+h1{
+    font-size:4rem;
+}
+h2{
+    font-size:2rem;
+}
+
+@media screen and (max-width: 480px) {
+    .outsideText{
+        justify-content:'center';
+        align-items:'center';
+        margin-left:0px;
+        margin-right:0px
+    }
+    h1{
+        font-size:1.65rem;
+    }
+    h2{
+        font-size:1.1rem;
+    }
+    
+}
+  

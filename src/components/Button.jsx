@@ -39,6 +39,7 @@ const Div = styled.div`
     flex-direction: row;
     button {
       flex-direction: row;
+      font-size: .9rem;
     }
   }
 `;

@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { FaChevronCircleRight } from "react-icons/fa";
 
-import about from "../assets/about.png";
-import Button from "./Button";
+import about from "../../assets/about.png";
+import Button from "../Button";
 import { PopupButton } from '@typeform/embed-react'
 export default function AboutUs() {
   return (
@@ -30,8 +30,8 @@ export default function AboutUs() {
               <Button text="Free consultation" icon={<FaChevronCircleRight />} />
             </PopupButton>
           </div>
-          <div className="image">
-            <img src={about} alt="about" className="half-width" />
+          <div  className="image">
+            <img  id="imageAbout" src={about} alt="about" className="half-width" />
           </div>
         </div>
       </div>
@@ -45,6 +45,9 @@ const Section = styled.section`
     }
     .image{
       align-self:center;
+    }
+    #imageAbout{
+      padding-left:30px;
     }
   }
 `;

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { AiOutlineMail } from "react-icons/ai";
-import Button from "./Button";
+import Button from "../Button";
 export default function Newsletter() {
   return (
     <Section className="flex j-between a-center gap">

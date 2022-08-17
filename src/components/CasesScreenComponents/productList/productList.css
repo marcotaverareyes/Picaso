@@ -31,6 +31,16 @@
     padding: 10px;
   }
 
+  .pl-title {
+    margin-top: 30px;
+    font-size:25px;
+    font-weight: 600;
+  }
+  
+  .pl-desc {
+    color:'transparent'
+  }
+
   .pl-texts {
     width: 100%;
   }

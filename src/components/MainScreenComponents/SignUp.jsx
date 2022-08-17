@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import card from "../assets/card.png";
-import signupBackground from "../assets/signupBackground.png";
+import card from "../../assets/card.png";
+import signupBackground from "../../assets/signupBackground.png";
 
 export default function SignUp() {
   return (

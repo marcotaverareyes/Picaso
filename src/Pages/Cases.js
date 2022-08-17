@@ -1,8 +1,8 @@
 import React from 'react'
-import About from "../components/about/About";
-import Intro from "../components/intro/Intro";
-import ProductList from "../components/productList/ProductList";
-import Toggle from "../components/toggle/Toggle";
+// import About from "../components/about/About";
+import Intro from "../components/CasesScreenComponents/intro/Intro";
+import ProductList from "../components/CasesScreenComponents/productList/ProductList";
+// import Toggle from "../components/toggle/Toggle";
 
 import {motion,MotionConfig} from 'framer-motion'
 

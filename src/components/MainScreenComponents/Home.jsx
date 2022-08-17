@@ -1,15 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import { FaChevronCircleRight } from "react-icons/fa";
-import home from "../assets/home.png";
-import badgePercent from "../assets/badge-percent.png";
-import Button from "./Button";
+import home from "../../assets/home.png";
+import badgePercent from "../../assets/badge-percent.png";
+import Button from "../Button";
 import { PopupButton } from '@typeform/embed-react'
 import {Link} from 'react-scroll'
-
-// function LightText({children}) {
-//   return <span style={{fontFamily: 'GroteskLight'}}>{children}</span>;
-// }
 
 export default function Home() {
   return (
@@ -26,9 +22,9 @@ export default function Home() {
           {/* <PopupButton id="bMJOK1hd" style={{ fontSize: 20 }} className="my-button">click to open form in popup</PopupButton> */}
         </div>
         <div className="title">
-          <h1 style={{fontFamily: 'GroteskLight',fontWeight:1}}>Simplist way for your apps</h1>
-          <h1 style={{fontFamily: 'GroteskRegular',fontWeight:900}}>to increase in store visibility</h1>
-          <h1 style={{fontFamily: 'GroteskRegular',fontWeight:900}}>and improve conversion rates</h1>
+          <h1 id="titleMain" style={{fontFamily: 'GroteskLight',fontWeight:1}}>Simplist way for your apps</h1>
+          <h1 id="titleMain" style={{fontFamily: 'GroteskRegular',fontWeight:900}}>to increase in store visibility</h1>
+          <h1 id="titleMain" style={{fontFamily: 'GroteskRegular',fontWeight:900}}>and improve conversion rates</h1>
         </div>
         <div className="description" style={{marginRight:'30%'}}>
           <p className="subdue">We equip product and marketing teams with the skills and knowledge they need to grow apps ~ or we simply picaso it for them.</p>

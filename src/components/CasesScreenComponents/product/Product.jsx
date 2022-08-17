@@ -1,5 +1,5 @@
 import "./product.css";
-import case0 from '../../assets/case1.png'
+import case0 from '../../../assets/case1.png'
 
 
 const Product = ({img,link}) => {

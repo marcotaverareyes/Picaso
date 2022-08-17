@@ -1,18 +1,16 @@
 import React from 'react'
-import AboutUs from "../components/AboutUs";
-import DailyPrices from "../components/DailyPrices";
-import Footer from "../components/Footer";
-import Home from "../components/Home";
-import Newsletter from "../components/Newsletter";
-import Roadmap from "../components/Roadmap";
-import Services from "../components/Services";
-import SignUp from "../components/SignUp";
+import AboutUs from "../components/MainScreenComponents/AboutUs";
+import DailyPrices from "../components/MainScreenComponents/DailyPrices";
+// import Footer from "../components/Footer";
+import Home from "../components/MainScreenComponents/Home";
+import Newsletter from "../components/MainScreenComponents/Newsletter";
+import Roadmap from "../components/MainScreenComponents/Roadmap";
+import Services from "../components/MainScreenComponents/Services";
+import SignUp from "../components/MainScreenComponents/SignUp";
 
 import {motion,MotionConfig} from 'framer-motion'
 
 function Main() {
-   
-    
   return (
     <MotionConfig transition={{ duration: 1.5 }}>
       <motion.div  initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>

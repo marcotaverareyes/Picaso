@@ -1,5 +1,5 @@
-import { PricingComponent } from './PricingComponent'
-import { Wrapper } from './Wrapper'
+import { PricingComponent } from './PricingScreenComponents/PricingComponent'
+import { Wrapper } from './PricingScreenComponents/Wrapper'
 
 export {
   PricingComponent,
