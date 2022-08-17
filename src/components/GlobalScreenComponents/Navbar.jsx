@@ -27,10 +27,9 @@ export default function Navbar() {
   },[location.pathname]);
   
   const handleClick=()=> {
-    if(location.pathname != '/'){
+    if(location.pathname === '/'){
       navigate('/');
       setLocationNow('/')
-      // document.getElementById("LOL").click()
       setTimeout(() => {
         document.getElementById("LOL").click()
       }, 2000);
@@ -39,10 +38,9 @@ export default function Navbar() {
   }
   
   const handleClick2=()=> {
-    if(location.pathname != '/'){
+    if(location.pathname !== '/'){
       navigate('/');
       setLocationNow('/')
-      // document.getElementById("LOL").click()
       setTimeout(() => {
         document.getElementById("LOL2").click()
       }, 2000);
