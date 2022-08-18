@@ -41,7 +41,7 @@ export default function Services() {
         {servicesData.map(({ image, title, descrption }) => {
           return (
             <div className="service text-center flex column gap-1" key={title}>
-              <div className="image">
+              <div id="serviceImage" className="image">
                 <img src={image} alt="servive" />
               </div>
               <h3 className="title">{title}</h3>
@@ -69,8 +69,12 @@ const Section = styled.section`
   }
   @media screen and (min-width: 280px) and (max-width: 1080px) {
     .services {
-      padding: 2rem;
+      padding: 2rem 0rem;
       gap: 3rem;
+      justify-items:center;
+    }
+    #serviceImage{
+      margin: auto
     }
   }
 `;
