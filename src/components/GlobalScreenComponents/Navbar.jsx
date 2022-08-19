@@ -27,7 +27,7 @@ export default function Navbar() {
   },[location.pathname]);
   
   const handleClick=()=> {
-    if(location.pathname === '/'){
+    if(location.pathname !== '/'){
       navigate('/');
       setLocationNow('/')
       setTimeout(() => {
