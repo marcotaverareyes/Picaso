@@ -22,7 +22,7 @@ export default function Home() {
           {/* <PopupButton id="bMJOK1hd" style={{ fontSize: 20 }} className="my-button">click to open form in popup</PopupButton> */}
         </div>
         <div className="title">
-          <h1 id="titleMain" style={{fontFamily: 'GroteskLight',fontWeight:1}}>Simplist way for your apps</h1>
+          <h1 id="titleMain" style={{fontFamily: 'GroteskLight',fontWeight:1}}>Simplest way for your apps</h1>
           <h1 id="titleMain" style={{fontFamily: 'GroteskRegular',fontWeight:900}}>to increase in store visibility</h1>
           <h1 id="titleMain" style={{fontFamily: 'GroteskRegular',fontWeight:900}}>and improve conversion rates</h1>
         </div>
