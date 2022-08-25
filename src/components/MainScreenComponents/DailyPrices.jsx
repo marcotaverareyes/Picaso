@@ -80,15 +80,7 @@ export default function DailyPrices() {
         <div style={{flex:1,backgroundColor:'transparent',justifySelf:'center',alignSelf:'center'}}>
             <img src={p5} style={{width:530/2.5,height:86/2.5,marginBottom:6}} />
         </div>
-        {/* <div style={{flex:1,backgroundColor:'transparent',justifySelf:'center',alignSelf:'center'}}>
-            <img src={p6} style={{width:530/2.5,height:86/2.5,marginBottom:6}} />
-        </div> */}
       </div>
-          {/* <img src={p2} style={{width:530/2.5,height:86/2.5,marginBottom:6}} />
-          <img src={p3} style={{width:530/2.5,height:86/2.5,marginBottom:6}} />
-          <img src={p4} style={{width:530/2.5,height:86/2.5,marginBottom:6}} />
-          <img src={p5} style={{width:530/2.5,height:86/2.5,marginBottom:6}} />
-          <img src={p6} style={{width:530/2.5,height:86/2.5,marginBottom:6}} /> */}
 
     </Section>
   );

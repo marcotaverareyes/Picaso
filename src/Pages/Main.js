@@ -15,7 +15,8 @@ function Main() {
     <MotionConfig transition={{ duration: 1.5 }}>
       <motion.div  initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
           <Home />
-          <DailyPrices />
+          {/* Put back into the website after IdeaFund */}
+          {/* <DailyPrices /> */}
           <AboutUs />
           <Services/>
           <SignUp />
