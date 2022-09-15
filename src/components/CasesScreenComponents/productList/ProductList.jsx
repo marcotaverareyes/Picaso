@@ -8,7 +8,7 @@ const ProductList = () => {
       <div className="pl-texts">
         <h1 style={{fontFamily: 'GroteskBlack'}} className="pl-title">Real Customers with Huge Results</h1>
         <p className="pl-desc" style={{fontFamily: 'GroteskRegular'}}>
-        Picaso has optimized thousands of apps using our proprietary platform and methodology. 
+        Picaso has optimized thousands of apps using our platform and methodology. 
         Take a look at each app store case study and see how Picaso can help you.
         </p>
       </div>

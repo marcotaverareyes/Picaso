@@ -21,7 +21,7 @@ function Main() {
           <Services/>
           <SignUp />
           <Roadmap />
-          <Newsletter />
+          {/* <Newsletter /> */}
       </motion.div>
     </MotionConfig>
   )

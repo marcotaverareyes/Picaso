@@ -22,8 +22,8 @@ export default function AboutUs() {
             <p className="subdue">We increase your app's organic installs with a data-driven App Store Optimization strategies ~</p>
             <p className="subdue">
               Picaso is the best full-service App Store Optimization agency offering premium level ASO services.
-              Picaso provides ASO solutions for some of the world's leading apps, utilizing proprietary technologies and a wide array of services.
-              Founded by both mobile and desktop organic search experts, Picaso has developed proprietary technology and methods to enhance app visibility
+              Picaso provides ASO solutions for some of the world's leading apps, utilizing our technologies and a wide array of services.
+              Founded by both mobile and desktop organic search experts, Picaso has developed a dashboard and methods to enhance app visibility
               and conversions, resulting in exponential increases in organic downloads for our industry leading clients.
             </p>
             <PopupButton id="bMJOK1hd" style={{ backgroundColor: 'transparent', borderWidth: 0 }}>

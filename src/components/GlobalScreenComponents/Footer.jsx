@@ -51,7 +51,7 @@ export default function Footer() {
             <span>T : +1-919-200-8086</span>
             <span>E : hello@thepicaso.com</span>
           </div>
-          <div className="social-icons flex gap-2">
+          {/* <div className="social-icons flex gap-2">
             {socialIcons.map((icon, index) => {
               return (
                 <div className="icon" key={index}>
@@ -59,9 +59,9 @@ export default function Footer() {
                 </div>
               );
             })}
-          </div>
+          </div> */}
         </div>
-        <div className=" flex column gap-1">
+        {/* <div className=" flex column gap-1">
           <div className="title">
             <h3>Company</h3>
           </div>
@@ -70,8 +70,8 @@ export default function Footer() {
               return <li key={link}>{link}</li>;
             })}
           </ul>
-        </div>
-        <div className=" flex column gap-1">
+        </div> */}
+        {/* <div className=" flex column gap-1">
           <div className="title">
             <h3>Learn</h3>
           </div>
@@ -80,8 +80,8 @@ export default function Footer() {
               return <li key={link}>{link}</li>;
             })}
           </ul>
-        </div>
-        <div className=" flex column gap-1">
+        </div> */}
+        {/* <div className=" flex column gap-1">
           <div className="title">
             <h3>Company</h3>
           </div>
@@ -90,7 +90,7 @@ export default function Footer() {
               return <li key={link}>{link}</li>;
             })}
           </ul>
-        </div>
+        </div> */}
         <div className="col spacemen">
           <div className="image">
             {/* <img src={spacemen} alt="spacemen" /> */}
@@ -102,8 +102,8 @@ export default function Footer() {
           <span>&copy; Picaso</span>
         </div>
         <div className="col2 flex a-center gap">
-          <span>Privacy Policy</span>
-          <span>Terms & Conditions</span>
+          {/* <span>Privacy Policy</span>
+          <span>Terms & Conditions</span> */}
           <span className="cards">
             {/* <img src={cards} alt="cards" /> */}
           </span>
